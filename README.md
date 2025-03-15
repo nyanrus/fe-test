@@ -15,7 +15,7 @@ React 필요하시면 말씀해 주세요.
 1. Node.js의 설치 관리 도구인 Volta를 설치해요
 
 Node.js를 설치합니다.
-이미 설치되어 있으면 스킵해 주세요.
+이미 설치되어 있으면 3번으로 가 주세요.
 
 이 명령어는, [https://docs.volta.sh/guide/getting-started](https://docs.volta.sh/guide/getting-started) 에서 가지고 왔어요.
 
