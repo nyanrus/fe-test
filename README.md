@@ -4,8 +4,10 @@ Vite 프론트 템플릿입니다.
 현재는 HTML, CSS, JS/TS 가능합니다.
 React 필요하시면 말씀해 주세요.
 
+모르시는 내용 있으시면, chatgpt에 물어봐 주시고, 그래도 이해가 안될 때 물어봐 주세요. 친절하게 답하겠습니다.
 
-## 개발 시작하기
+
+## 개발 처음 세팅
 
 윈도우 전제로 적었어요.
 다른 운영체제를 사용하신다면, 말씀해 주세요.
@@ -65,7 +67,8 @@ pnpm install
 
 어떤 라이브러리가 설치되는지는, `package.json`를 확인해 주세요.
 
-5. 개발을 시작해요.
+## 개발 시작하기
+
 
 ```sh
 pnpm dev
@@ -74,9 +77,18 @@ pnpm dev
 이것으로 Vite의 개발 모드가 실행되어요.
 터미널(콘솔창, cmd 등)에 `localhost`로 시작되는 주소가 표시되니, 사용하시는 브라우저 (Chrome, Firefox, Safari 등)으로 접속해 주세요.
 
+[윈도우 터미널](https://namu.wiki/w/Windows%20Terminal) 을 사용하신다면, ctrl을 누르면서 `localhost` 주소를 누르면 평소에 링크를 여는 브라우저로 바로 열려요.
+
+## 알아둘 것
+
+CSS는 HTML에서 `style` 태그로 읽어도 되지만, JS파일에서 `import`해도 페이지에 적용이 되어요.
+[https://ko.vite.dev/guide/features.html#disabling-css-injection-into-the-page]
+
 ## 확인할 것
 
 개발 모드 실행중에 변경해 보아 주세요.
 
 - index.html에 새로운 아무 내용이 포함된 div를 추가하고, 브라우저에서 그 div가 가진 내용이 추가되었는지 확인해요.
 - index.html의 head에, `<script src="src/main.js"></script>`를 추가하여 스크립트를 읽어들여요.
+
+읽어 주셔서 감사합니다. 좋은 하루 보내세요!
